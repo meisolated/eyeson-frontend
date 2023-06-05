@@ -12,8 +12,13 @@ export default function Home() {
     <div>
       <div>
         <h1>Stream Page</h1>
-        <HLSPlayer src={src} />
-        <HLSPlayer src={src1} />
+        <div className={styles.cams}>
+
+          <HLSPlayer src={src} />
+
+          <HLSPlayer src={src1} />
+
+        </div>
       </div>
     </div>
   )

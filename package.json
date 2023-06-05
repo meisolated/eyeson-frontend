@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pm2:start": "next build && pm2 start npm --name \"eyeson-frontend\" -- start"
   },
   "dependencies": {
     "@types/hls.js": "^1.0.0",
