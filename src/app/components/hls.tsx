@@ -54,7 +54,7 @@ const HLSPlayer: React.FC<HLSPlayerProps> = ({ src }) => {
         }
     }, [src])
 
-    return <video autoPlay ref={videoRef} controls />
+    return <video muted autoPlay ref={videoRef} controls />
 }
 
 export default HLSPlayer
